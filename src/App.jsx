@@ -4,6 +4,7 @@ import MovieForm from "./components/MovieForm";
 import MovieList from "./components/MovieList";
 import MovieStats from "./components/MovieStats";
 import { ThemeContext } from "./context/ThemeContext";
+import "./App.css";
 
 const initialMovies = [];
 
@@ -70,7 +71,7 @@ function App() {
         <div className="mb-8 flex items-center justify-between">
           <div>
             <h1 className="text-4xl font-bold">
-               Favorite Movies
+              🎬 Favorite Movies
             </h1>
 
             <p className="mt-2 text-gray-500 dark:text-gray-400">
